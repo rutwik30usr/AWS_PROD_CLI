@@ -39,3 +39,7 @@ terraform.rc
 # Ignore .aws/credentials file which might contain sensitive information
 provider.tf
 credentials.tf
+
+# Ignore backend configuration file which might contain sensitive information
+backend.tf
+backend_config.tf
